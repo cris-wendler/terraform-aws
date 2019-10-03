@@ -1,9 +1,19 @@
+# Module directory
+.terraform/
+
 #  Local .terraform directories
 **/.terraform/*
 
-# .tfstate files
+# .tfstate files / Compiled files
 *.tfstate
 *.tfstate.*
 
 # .tfvars files
 *.tfvars
+
+# SH scripts
+destroy.sh
+starter.sh
+
+.DS_Store
+.idea
